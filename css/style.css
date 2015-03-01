@@ -8,18 +8,18 @@ input[type='submit'], .nav li.current a, .speaker-contacts > .contact:hover,
 .owl-page.active span, .owl-page.active span:hover,
 .preloader, .preloader:before, .preloader:after, div.fancy-select div.trigger.open,
 div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected.hover  {
-	background-color: #ABED68; /* <- Paste here your prefered color */
+	background-color: #FF5500; /* <- Paste here your prefered color */
 }
 
 .accordion-heading span, .speaker-contacts > .contact, 
 .table-features li.fa-check-circle, .owl-btn.prev,
 .owl-btn.next, div.fancy-select ul.options li.hover {
-	color: #ABED68; /* <- Paste here your prefered color */
+	color: #FF5500; /* <- Paste here your prefered color */
 }
 
 .speaker:hover .speaker-photo, .speaker-contacts > .contact, 
 .social-icons li a:hover, .gotop:hover, .speaker-contacts > .contact:hover {
-	border-color: #ABED68; /* <- Paste here your prefered color */
+	border-color: #FF5500; /* <- Paste here your prefered color */
 }
 
 
@@ -61,7 +61,6 @@ p {
 }
 
 h1,h2,h3 {
-    font-family: 'Belgrano', serif;
     line-height: 1.4em;
     color: #222222;
     margin: 10px 0;
@@ -195,8 +194,7 @@ input[type='submit']:hover, input[type='submit']:active {
 }
 
 .box {
-	background: #fff;
-	border-radius: 5px;
+	background: rgba(255, 255, 255, 1);
 	padding: 0 45px;
 }
 
@@ -213,10 +211,6 @@ input[type='submit']:hover, input[type='submit']:active {
 	top: 0;
 	margin-top: 50px;
 	z-index: 55;
-}
-
-#menu .box {
-	background: url(../images/bg-menu.png);
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -245,16 +239,11 @@ input[type='submit']:hover, input[type='submit']:active {
 	animation: bounceIn 0.5s;
 }
 
-.header-menu > .box {
-	min-height: 75px;
-}
-
 .header-menu.sticky > .box {
 	padding-top: 0;
 	padding-bottom: 0;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
-	border-bottom: 1px solid #5D9999;
 }
 
 .header-bg {
@@ -276,7 +265,6 @@ input[type='submit']:hover, input[type='submit']:active {
 
 .content {
 	position: relative;
-    padding: 0 15px;
     z-index: 50;
 }
 
@@ -362,8 +350,6 @@ Header CTA ========*/
 .header-cta .blk {
 	float: left;
 	padding: 10px;
-	border-radius: 5px;
-	background: rgba(0, 0, 0, 0.5);
 	margin-top: 10px;
 }
 
@@ -371,6 +357,10 @@ Header CTA ========*/
 	margin: 0;
 	color: #ffffff;
 	line-height: 1.2em;
+}
+
+.header-cta h2, .header-cta h3 {
+	color: #ffffff;
 }
 
 .header-cta input[type="submit"] {
@@ -413,9 +403,8 @@ Navigation =========*/
 	line-height: 2.4rem;
 	padding: 0.8rem 1rem;
 	font-size: 1.5rem;
-	font-weight: bold;
 	border-radius: 2px;
-	color: #FFFFFF;
+	color: #6C6C6C;
 	overflow: hidden;
 }
 
