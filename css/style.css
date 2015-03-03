@@ -214,7 +214,7 @@ input[type='submit']:hover, input[type='submit']:active {
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-	background-color: rgba(74, 129, 238, 0.14);
+	background-color: #D54700;
 }
 
 .header-menu {
@@ -371,6 +371,11 @@ Header CTA ========*/
 
 /*--------------------
 Navigation =========*/
+
+#menu .box {
+	background: #FF5500;
+}
+
 .nav a {
 	float: left;
 	padding: 8px 10px;
@@ -404,12 +409,13 @@ Navigation =========*/
 	padding: 0.8rem 1rem;
 	font-size: 1.5rem;
 	border-radius: 2px;
-	color: #6C6C6C;
+	color: #FFFFFF;
 	overflow: hidden;
 }
 
 .navbar-nav > li.current > a {
-	color: #ffffff;
+	color: #FF5500;
+	background: #fff;
 }
 
 .navbar-brand {
@@ -427,8 +433,12 @@ Navigation =========*/
 	height: 108px;
 	background: url("/images/logo-letstalk-cuadrado.png") no-repeat;
 	text-indent: 100px;
-	width: 110px;
+	width: 80px;
 	overflow: hidden;
+}
+
+.header-menu.fixed .navbar-nav {
+	margin: 33px 0;
 }
 
 .navbar-brand span {
