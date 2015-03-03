@@ -423,6 +423,14 @@ Navigation =========*/
     padding: 5px 0;
 }
 
+.header-menu.fixed .navbar-brand {
+	height: 108px;
+	background: url("/images/logo-letstalk-cuadrado.png") no-repeat;
+	text-indent: 100px;
+	width: 110px;
+	overflow: hidden;
+}
+
 .navbar-brand span {
     margin-right: 10px;
     color: #bbbac0;
