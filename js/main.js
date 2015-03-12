@@ -147,6 +147,29 @@
         },
 
 
+        // Owl Carousel
+        Carouselpress: function () {
+            var owl = $("#carousel-press");
+            owl.owlCarouselpress({
+                itemsCustom : [
+                    [1200, 4],
+                    [970, 3],
+                    [768, 2],
+                    [360, 1]
+                ],
+                navigation : false
+            });
+
+            $(".next").click(function () {
+                owl.trigger('owl.next');
+            });
+
+            $(".prev").click(function () {
+                owl.trigger('owl.prev');
+            });
+        },
+
+
 
         // FlexSlider
         Slider: function () {
