@@ -17,7 +17,6 @@ div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected
 	color: #FF5500; /* <- Paste here your prefered color */
 }
 
-.speaker:hover .speaker-photo, .speaker-contacts > .contact, 
 .social-icons li a:hover, .gotop:hover, .speaker-contacts > .contact:hover {
 	border-color: #FF5500; /* <- Paste here your prefered color */
 }
@@ -41,16 +40,12 @@ body {
 a, a:hover, a:active, a:focus {
   outline: 0;
   text-decoration: none;
+  color: #D34600;
 }
 
 a {
     text-decoration:none;
-    color: #0ECABF;
-}
-
-a:hover {
-	color: #4A81EE;
-    text-decoration:none;
+    color: #FF5500;
 }
 
 p {
