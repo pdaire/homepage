@@ -428,7 +428,7 @@ Navigation =========*/
 
 .header-menu.fixed .navbar-brand {
   height: 140px;
-  background: url("/images/logo-letstalk-cuadrado.png") no-repeat;
+  background: url("../images/logo-letstalk-cuadrado.png") no-repeat;
   text-indent: 130px;
   width: 130px;
   overflow: hidden;

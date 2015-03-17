@@ -3,7 +3,7 @@ title: Let's Talk
 # email: info@ciudadanointeligente.org
 description: "pure an simple communication"
 url: "http://lets-talk.github.io"
-baseurl: "http://lets-talk.github.io/homepage"
+baseurl: "/homepage"
 # "http://abrelatam.org"
 twitter_username: ciudadanoi
 github_username:  ciudadanointeligente
