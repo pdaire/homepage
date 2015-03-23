@@ -4,7 +4,7 @@ layout: default
 
 <header id="header">
 			
-			{% include menu.html %}
+			{% include organizations/menu.html %}
 			<!--== Site Description ==-->
 			<div class="header-cta">
 				<div class="container">
@@ -31,7 +31,7 @@ layout: default
 
 					<!--== Main Slider ==-->
 					<ul class="slides">
-						<li><img src="images/coffee_man.jpg" alt="Coffee Man"/></li>
+						<li><img src="{{ site.baseurl }}/images/walking_man.jpg" alt="Walking Man"/></li>
 						<!-- <li><img src="images/walking_man.jpg" alt="Walking Man"/></li> -->
 					</ul>
 
@@ -43,24 +43,33 @@ layout: default
 			<div class="container box">
 
 				<section id="presentacion">
-					{% include img-slider.html %}
+					{% include organizations/img-slider.html %}
 				</section>
 				<section>
-					{% include img-slider-2.html %}
+					{% include organizations/img-slider-2.html %}
 				</section>
 				<section>
-					{% include img-slider-3.html %}
+					{% include organizations/img-slider-3.html %}
 				</section>
 
 			
 
 				<section id="press" class="row separated">
-					{% include press.html %}
+					{% include organizations/press.html %}
+				</section>
+
+				<section id="pricing" class="row">
+					{% include organizations/pricing-tables.html %}
 				</section>
 
 				<section id="clients" class="row separated">
-					{% include clients.html %}
+					{% include organizations/clients.html %}
 				</section>
+
+				<section id="contact" class="row">
+					{% include organizations/register-form.html %}
+				</section>
+				
 				<div id="gotop" class="gotop fa fa-arrow-up"></div>
 			</div>
 		</div>
@@ -77,8 +86,7 @@ layout: default
 							<ul class="social-icons">
 								<li><a href="https://www.facebook.com/LetsTalkchat" target="_blank" class="fa fa-facebook"></a></li>
 								<li><a href="https://twitter.com/go_letstalk" target="_blank" class="fa fa-twitter"></a></li>
-								<!-- 
-								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<!-- <li><a href="#" class="fa fa-google-plus"></a></li>
 								<li><a href="#" class="fa fa-youtube"></a></li>
 								<li><a href="#" class="fa fa-instagram"></a></li>
 								<li><a href="#" class="fa fa-pinterest"></a></li>
@@ -99,15 +107,15 @@ layout: default
 
 		<!--== Javascript Files ==-->
 		
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.scrollTo.js"></script>
-		<script src="js/jquery.nav.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/jquery.flexslider.js"></script>
-		<script src="js/jquery.accordion.js"></script>
-		<script src="js/jquery.placeholder.js"></script>
-		<script src="js/jquery.fitvids.js"></script>
-		<script src="js/gmap3.js"></script>
-		<script src="js/fancySelect.js"></script>
-		<script src="js/main.js"></script>
+		<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.scrollTo.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.nav.js"></script>
+		<script src="{{ site.baseurl }}/js/owl.carousel.min.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.flexslider.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.accordion.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.placeholder.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.fitvids.js"></script>
+		<script src="{{ site.baseurl }}/js/gmap3.js"></script>
+		<script src="{{ site.baseurl }}/js/fancySelect.js"></script>
+		<script src="{{ site.baseurl }}/js/main.js"></script>
 
