@@ -18,6 +18,9 @@
  */
 
 ;(function($, window, document, undefined){
+	$('#nav').onePageNav({
+    filter: ':not(.external)'
+});
 
 	// our plugin constructor
 	var OnePageNav = function(elem, options){
