@@ -78,3 +78,23 @@
   .table-features li span { display: none; }
 
 }
+
+/*header*/
+
+@media screen and (max-width: 700px) {
+	.header-menu.fixed .navbar-brand {
+	  height: 70px;
+	  background: none;
+	  text-indent: 0;
+	  width: 50px;
+	}
+
+	img.app-button {
+		  max-height: 50px;
+	}
+
+	.header-cta h2 {
+	  font-size: 24px;
+	}
+
+}
