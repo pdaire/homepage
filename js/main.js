@@ -32,6 +32,7 @@
                 map: {
                     options: {
                         maxZoom: 15,
+                        scrollwheel: false,
                         streetViewControl: false,
                         panControl: true,
                         panControlOptions: {
