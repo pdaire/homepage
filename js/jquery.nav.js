@@ -18,9 +18,7 @@
  */
 
 ;(function($, window, document, undefined){
-	$('#nav').onePageNav({
-    filter: ':not(.external)'
-});
+	
 
 	// our plugin constructor
 	var OnePageNav = function(elem, options){
@@ -42,7 +40,7 @@
 			currentClass: 'current',
 			changeHash: false,
 			easing: 'swing',
-			filter: '',
+			filter: 'external',
 			scrollSpeed: 750,
 			scrollOffset: 50,
 			scrollThreshold: 0.5,
