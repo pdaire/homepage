@@ -2,8 +2,8 @@
     "use strict";
 
     ///////////////////////////////////////////////////// Your
-    var venueAddress = "Liber Bernardo O'Higgins 227, Santiago"; // Venue
-    var placeName = "Centro Gabriela Mistral";
+    var venueAddress = "Rosario Norte 555, Santiago"; // Venue
+    var placeName = "Let's Talk HQ";
     /////////////////////////////////////////////////// Adress
 
     var fn = {
