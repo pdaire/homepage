@@ -18,7 +18,6 @@
  */
 
 ;(function($, window, document, undefined){
-	
 
 	// our plugin constructor
 	var OnePageNav = function(elem, options){
@@ -221,4 +220,5 @@
 		});
 	};
 	
+>>>>>>> origin/master
 })( jQuery, window , document );
