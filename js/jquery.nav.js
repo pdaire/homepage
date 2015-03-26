@@ -220,5 +220,4 @@
 		});
 	};
 	
->>>>>>> origin/master
 })( jQuery, window , document );
