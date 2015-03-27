@@ -39,7 +39,7 @@
 			currentClass: 'current',
 			changeHash: false,
 			easing: 'swing',
-			filter: 'external',
+			filter: '',
 			scrollSpeed: 750,
 			scrollOffset: 50,
 			scrollThreshold: 0.5,
