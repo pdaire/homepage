@@ -1,13 +1,12 @@
 # site settings
 title: Let's Talk 
 # email: info@ciudadanointeligente.org
-description: "pure an simple communication"
-url: "http://lets-talk.github.io"
-baseurl: "/homepage"
+description: "Chatea gratis con empresas y servicios."
+url: "http://letsta.lk"
+baseurl: ""
 # "http://abrelatam.org"
-twitter_username: ciudadanoi
-github_username:  ciudadanointeligente
-# analytics: 'UA-41822715-1'
+twitter_username: go_letstalk
+analytics: 'UA-46321842-1'
 
 # build settings
 markdown: kramdown
