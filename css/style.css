@@ -223,6 +223,8 @@ input[type='submit']:hover, input[type='submit']:active {
 .header-menu.sticky {
 	position: fixed;
 	margin: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.19);
 	-moz-animation: fadeInDown 0.5s;
 	-webkit-animation: fadeInDown 0.5s;
 	animation: fadeInDown 0.5s;
@@ -233,6 +235,9 @@ input[type='submit']:hover, input[type='submit']:active {
 	-webkit-animation: fadeInUp 0.5s;
 	animation: fadeInUp 0.5s;
 }
+.header-menu.fixed li#inicio{
+	display: none;
+} 
 
 .header-menu.sticky > .box {
 	padding-top: 0;
@@ -264,7 +269,11 @@ input[type='submit']:hover, input[type='submit']:active {
 }
 
 .content section {
-	padding: 50px 0;
+	/*padding: 50px 0;*/
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
 }
 
 .content section#features:first-child {
@@ -1018,3 +1027,4 @@ Copyrights =========*/
 .copyrights img {
 	margin-left: 60px;
 }
+
