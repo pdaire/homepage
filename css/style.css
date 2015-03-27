@@ -235,6 +235,9 @@ input[type='submit']:hover, input[type='submit']:active {
 	-webkit-animation: fadeInUp 0.5s;
 	animation: fadeInUp 0.5s;
 }
+.header-menu.fixed li#inicio{
+	display: none;
+} 
 
 .header-menu.sticky > .box {
 	padding-top: 0;
