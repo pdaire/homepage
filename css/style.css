@@ -159,7 +159,7 @@ input[type='submit']:hover, input[type='submit']:active {
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	background-color: #ABED68;
+	background-color: #FF5500;
 	border-radius: 5px;
 	padding: 1rem 1.5rem;
 	border-top: 0;
@@ -168,7 +168,7 @@ input[type='submit']:hover, input[type='submit']:active {
 }
 
 .btn:hover {
-	background-color: #0ECABF;
+	background-color: #D34600;
 	color: #FFFFFF;
 }
 
@@ -353,6 +353,12 @@ Header CTA ========*/
 
 .header-cta .blk {
 	float: left;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.header-cta .blk-right{
+	float: right;
 	padding: 10px;
 	margin-top: 10px;
 }

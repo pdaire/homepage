@@ -9,15 +9,16 @@ layout: default
 			<div class="header-cta">
 				<div class="container">
 					<div class="row">
-						<div class="blk">
-							<h1>Chat with shops and services.</h1>
-							<h2>Let's Talk is the best way to keep in touch width <br />your clients using instant messaging.</h2>
+						<div class="blk-right">
+							<h1>Chatea con tus clientes.</h1>
+							<h2>Let's Talk es la mejor herramienta para </br> estar en contacto con tus clientes. <br />Menos costos y mejor servicio.</h2>
 						</div>
 					</div>
 					<div class="row">
-						<div class="blk">
-										<a href="https://play.google.com/store/apps/details?id=com.camperfarm.letstalk" target="_blank"><img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png" /></a>
-										<a href="https://itunes.apple.com/cl/app/lets-talk/id892192939?mt=8&uo=4" target="_blank"><img src="{{ site.baseurl }}/images/appstore-btn.svg"></a>
+						<div class="blk-right">
+							<div class="col-md-12 col-sm-6">
+							<a class="btn btn-medium" href="#registro">Comienza ahora</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -32,7 +33,6 @@ layout: default
 					<!--== Main Slider ==-->
 					<ul class="slides">
 						<li><img src="{{ site.baseurl }}/images/walking_man.jpg" alt="Walking Man"/></li>
-						<!-- <li><img src="images/walking_man.jpg" alt="Walking Man"/></li> -->
 					</ul>
 
 				</div>
@@ -42,7 +42,7 @@ layout: default
 		<div class="content">
 			<div class="container box">
 
-				<section id="presentacion">
+				<section id="tour">
 					{% include organizations/img-slider.html %}
 				</section>
 				<section>
@@ -51,22 +51,19 @@ layout: default
 				<section>
 					{% include organizations/img-slider-3.html %}
 				</section>
-
-			
-
-				<section id="press" class="row separated">
-					{% include organizations/press.html %}
+				<section>
+					{% include organizations/img-slider-4.html %}
 				</section>
 
-				<section id="pricing" class="row">
+				<section id="planes" class="row separated">
 					{% include organizations/pricing-tables.html %}
 				</section>
 
-				<section id="clients" class="row separated">
+				<section id="clientes" class="row separated">
 					{% include organizations/clients.html %}
 				</section>
 
-				<section id="contact" class="row">
+				<section id="registro" class="row reparated">
 					{% include organizations/register-form.html %}
 				</section>
 				
@@ -96,7 +93,7 @@ layout: default
 						</div>
 						<div class="col-sm-4 text-right">
 							<div class="copyrights">
-								Let's Talk SpA © 2015
+								Hecho a mano por Let's Talk SpA © 2015
 							</div>
 						</div>
 					</section>
