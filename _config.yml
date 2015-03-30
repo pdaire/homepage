@@ -6,7 +6,7 @@ url: "http://letsta.lk"
 baseurl: ""
 # "http://abrelatam.org"
 twitter_username: go_letstalk
-analytics: 'UA-46321842-1'
+analytics: 'UA-61272908-1'
 
 # build settings
 markdown: kramdown
