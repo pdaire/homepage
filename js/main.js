@@ -264,10 +264,22 @@
                 $('html, body').scrollTo($('#header'), 300);
             });
 
-            // Go Contac
-            // $('#contacto').click(function () {
-            //     $('html, body').scrollTo($('#contacto'), 300);
-            // });
+            // Go Retro
+            $('#registro-1').click(function () {
+                $('html, body').scrollTo($('#registro'), 500);
+            });
+            $('#registro-2').click(function () {
+                $('html, body').scrollTo($('#registro'), 500);
+            });
+            $('#registro-3').click(function () {
+                $('html, body').scrollTo($('#registro'), 500);
+            });
+            $('#registro-4').click(function () {
+                $('html, body').scrollTo($('#registro'), 500);
+            });
+            $('#registro-5').click(function () {
+                $('html, body').scrollTo($('#registro'), 500);
+            });
 
             // // Placeholder for MailChimp Form
             // $('#mce-EMAIL').attr('placeholder', 'Your email...');
