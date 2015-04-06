@@ -1,0 +1,14 @@
+
+<script>
+
+        $.browserLanguage(function( language , acceptHeader ){
+            if (language=='Spanish / Castilian' && window.location.href.indexOf("/en") > -1) {
+                window.location = "{{ site.baseurl}}/";
+            } 
+            else if (language=='English' && window.location.href.indexOf("/en") < 0) {
+                window.location = "{{ site.baseurl}}/en";
+                console.log(language);
+                $.localStorage.set('preferredLanguage','en');
+        	}});
+
+</script>
