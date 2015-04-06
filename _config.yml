@@ -1,7 +1,4 @@
 # site settings
-title: Let's Talk 
-# email: info@ciudadanointeligente.org
-description: "Chatea gratis con empresas y servicios."
 url: "http://letsta.lk"
 baseurl: ""
 # "http://abrelatam.org"
@@ -10,3 +7,10 @@ analytics: 'UA-61272908-1'
 
 # build settings
 markdown: kramdown
+
+en:
+  title: Let's Talk 
+  description: "Chat with companies for free."
+es:
+  title: Let's Talk 
+  description: "Chatea gratis con empresas y servicios."

@@ -1,23 +1,26 @@
 ---
-layout: es/default
+layout: en/default
 ---	
 
 <header id="header">
 			
-			{% include es/menu.html %}
+			{% include en/companies/menu.html %}
 			<!--== Site Description ==-->
 			<div class="header-cta">
 				<div class="container">
 					<div class="row">
-						<div class="blk">
-							<h1>Chatea con tiendas y servicios. </br>Gratis.</h1>
-							<h2>Let's Talk es la forma más cómoda </br>de contactar a una empresa.</h2>
+						<div class="blk-right">
+							<h1>Chat with your clients.</h1>
+							<h2>Let's Talk is the best way to stay in touch
+							</br> with your clients.
+							<br />Lower costs and better service.</h2>
 						</div>
 					</div>
 					<div class="row">
-						<div class="blk">
-										<a href="https://play.google.com/store/apps/details?id=com.camperfarm.letstalk" target="_blank"><img class="app-button" alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png" /></a>
-										<a href="https://itunes.apple.com/cl/app/lets-talk/id892192939?mt=8&uo=4" target="_blank"><img class="app-button" src="{{ site.baseurl }}/images/appstore-btn.svg"></a>
+						<div class="blk-right">
+							<div class="col-md-12 col-sm-6">
+							<a id="registro-1" class="btn btn-medium" href="#registro">Start now</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -31,8 +34,7 @@ layout: es/default
 
 					<!--== Main Slider ==-->
 					<ul class="slides">
-						<li><img src="{{ site.baseurl }}/images/coffee_man.jpg" alt="Coffee Man"/></li>
-						<!-- <li><img src="images/girl_chatting.jpg" alt="Chatting Girl"/></li> -->
+						<li><img src="{{ site.baseurl }}/images/walking_man.jpg" alt="Walking Man"/></li>
 					</ul>
 
 				</div>
@@ -42,19 +44,31 @@ layout: es/default
 		<div class="content">
 			<div class="container box">
 
-				<section class="row" id="tour">
-					{% include es/img-slider.html %}
+				<section id="tour">
+					{% include en/companies/img-slider-3.html %}
 				</section>
-				<section class="row">
-					{% include es/img-slider-2.html %}
+				<section>
+					{% include en/companies/img-slider-2.html %}
 				</section>
-				<section class="row">
-					{% include es/img-slider-3.html %}
+				<section>
+					{% include en/companies/img-slider.html %}
 				</section>
-				<section class="row separated" id="contacto">
-					{% include es/contact-form.html %}
+				<section>
+					{% include en/companies/img-slider-4.html %}
 				</section>
 
+				<section id="planes" class="row separated">
+					{% include en/companies/pricing-tables.html %}
+				</section>
+
+				<section id="clientes" class="row separated">
+					{% include en/companies/clients.html %}
+				</section>
+
+				<section id="registro" class="row reparated">
+					{% include en/companies/register-form.html %}
+				</section>
+				
 				<div id="gotop" class="gotop fa fa-arrow-up"></div>
 			</div>
 		</div>
@@ -71,12 +85,17 @@ layout: es/default
 							<ul class="social-icons">
 								<li><a href="https://www.facebook.com/LetsTalkchat" target="_blank" class="fa fa-facebook"></a></li>
 								<li><a href="https://twitter.com/go_letstalk" target="_blank" class="fa fa-twitter"></a></li>
+								<!-- <li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-youtube"></a></li>
+								<li><a href="#" class="fa fa-instagram"></a></li>
+								<li><a href="#" class="fa fa-pinterest"></a></li>
+								<li><a href="#" class="fa fa-linkedin"></a></li> -->
 							</ul>
 
 						</div>
 						<div class="col-sm-4 text-right">
 							<div class="copyrights">
-								Hecho a mano por Let's Talk SpA © 2015
+								Hand made by Let's Talk SpA © 2015
 							</div>
 						</div>
 					</section>
@@ -88,8 +107,8 @@ layout: es/default
 		<!--== Javascript Files ==-->
 		
 		<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-		<script src="{{ site.baseurl }}/js/jquery.nav.js"></script>
 		<script src="{{ site.baseurl }}/js/jquery.scrollTo.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.nav.js"></script>
 		<script src="{{ site.baseurl }}/js/owl.carousel.min.js"></script>
 		<script src="{{ site.baseurl }}/js/jquery.flexslider.js"></script>
 		<script src="{{ site.baseurl }}/js/jquery.accordion.js"></script>
